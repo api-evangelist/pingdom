@@ -1,0 +1,280 @@
+{
+    "id": "b61c5f1b38c2a86f8767e8b4c24c362a",
+    "name": "Summary API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "498557943cd222e072775ce4ff35ae80",
+            "name": "Get A Response Time \/ Uptime Average",
+            "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/summary.average\/{checkid}",
+            "description": "\n    Get the average time \/ uptime value for a specified check and time period.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "\n    GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "from",
+                    "description": "Start time of period. Format is UNIX timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "to",
+                    "description": "End time of period. Format is UNIX timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "probes",
+                    "description": "Filter to only use results from a list of probes. Format is a comma separated list of probe identifiers",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "includeuptime",
+                    "description": "Include uptime information",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "bycountry",
+                    "description": "Split response times into country groups",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "byprobe",
+                    "description": "Split response times into probe groups",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b61c5f1b38c2a86f8767e8b4c24c362a",
+            "rawModeData": ""
+        },
+        {
+            "id": "abf8197b28d33d5aa016fd4740a2a325",
+            "name": "Get Response Time Averages For Each Hour Of The Day",
+            "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/summary.hoursofday\/{checkid}",
+            "description": "\n    Returns the average response time for each hour of the day (0-23) for a specific check over a selected time period. I.e. it shows you what an average day looks like during that time period.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "\n    GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "from",
+                    "description": "Start time of period. Format is UNIX timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "to",
+                    "description": "End time of period. Format is UNIX timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "probes",
+                    "description": "Filter to only use results from a list of probes. Format is a comma separated list of probe identifiers",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "uselocaltime",
+                    "description": "If true, use the user's local time zone for results (from and to parameters should still be specified in UTC). If false, use UTC for results.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b61c5f1b38c2a86f8767e8b4c24c362a",
+            "rawModeData": ""
+        },
+        {
+            "id": "bd95e56edf5de61e0cf33a728c7e3efb",
+            "name": "Get List of Outages",
+            "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/summary.outage\/{checkid}",
+            "description": "\n    Get a list of status changes for a specified check and time period. If order is speficied to descending, the list is ordered by newest first. (Default is ordered by oldest first.)",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "\n    GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "from",
+                    "description": "Start time of period. Format is UNIX timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "to",
+                    "description": "End time of period. Format is UNIX timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "Sorting order of outages. Ascending or descending.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b61c5f1b38c2a86f8767e8b4c24c362a",
+            "rawModeData": ""
+        },
+        {
+            "id": "94cdf20c832abe8633a6ec46212755d4",
+            "name": "Get Intervals of Average Response Time and Uptime During a Given Interval",
+            "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/summary.performance\/{checkid}",
+            "description": "\n    For a given interval in time, return a list of sub intervals with the given resolution. Useful for generating graphs. A sub interval may be a week,\n     a day or an hour depending on the choosen resolution.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "\n    GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "from",
+                    "description": "Start time of period. Format is UNIX timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "to",
+                    "description": "End time of period. Format is UNIX timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "resolution",
+                    "description": "Interval size",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "includeuptime",
+                    "description": "Include uptime information",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "probes",
+                    "description": "Filter to only use results from a list of probes. Format is a comma separated list of probe identifiers",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "Sorting order of outages. Ascending or descending.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b61c5f1b38c2a86f8767e8b4c24c362a",
+            "rawModeData": ""
+        },
+        {
+            "id": "9eaf27a0fb432af0a3c2e89b29b7a485",
+            "name": "Get Active Probes For A Period",
+            "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/summary.probes\/{checkid}",
+            "description": "\n    Get a list of probes that performed tests for a specified check during a specified period.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "\n    GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "from",
+                    "description": "Start time of period. Format is UNIX timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "to",
+                    "description": "End time of period. Format is UNIX timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b61c5f1b38c2a86f8767e8b4c24c362a",
+            "rawModeData": ""
+        }
+    ]
+}
