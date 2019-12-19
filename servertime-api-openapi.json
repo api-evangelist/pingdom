@@ -1,0 +1,26 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Servertime API",
+        "description": "The Servertime API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.pingdom.com\/"
+    ],
+    "paths": {
+        "\n    \/api\/{version}\/servertime": {
+            "\n    GET": {
+                "summary": "Get Current Server Time",
+                "description": "\n    Get the current time of the API server.",
+                "operationId": "GetCurrentServerTime",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
