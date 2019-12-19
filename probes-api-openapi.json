@@ -1,0 +1,47 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Probes API",
+        "description": "The Probes API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.pingdom.com\/"
+    ],
+    "paths": {
+        "\n    \/api\/{version}\/probes": {
+            "\n    GET": {
+                "summary": "Get Probe Server List",
+                "description": "\n    Returns a list of all Pingdom probe servers for Uptime and Transaction checks.",
+                "operationId": "GetProbeServerList",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Limits the number of returned probes to the specified quantity."
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "Offset for listing. (Requires limit.)"
+                    },
+                    {
+                        "name": "onlyactive",
+                        "in": "query",
+                        "description": "Return only active probes."
+                    },
+                    {
+                        "name": "includedeleted",
+                        "in": "query",
+                        "description": "Include old probes that are no longer in use"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
