@@ -1,0 +1,36 @@
+{
+    "id": "dde99523cd51d20af4141028a074940e",
+    "name": "Credits API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "772d4a698011bc47611478428e130489",
+            "name": "Get Credits List",
+            "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/credits",
+            "description": "\n    Returns information about remaining checks, SMS credits and SMS auto-refill status.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "\n    GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dde99523cd51d20af4141028a074940e",
+            "rawModeData": ""
+        }
+    ]
+}
