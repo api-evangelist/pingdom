@@ -1,0 +1,37 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Traceroute API",
+        "description": "The Traceroute API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.pingdom.com\/"
+    ],
+    "paths": {
+        "\n    \/api\/{version}\/traceroute": {
+            "\n    GET": {
+                "summary": "Make A Traceroute",
+                "description": "\n    Perform a traceroute to a specified target from a specified Pingdom probe.",
+                "operationId": "MakeATraceroute",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "host",
+                        "in": "query",
+                        "description": "Target host"
+                    },
+                    {
+                        "name": "probeid",
+                        "in": "query",
+                        "description": "Probe identifier"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
