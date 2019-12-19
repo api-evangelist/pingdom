@@ -1,0 +1,100 @@
+{
+    "id": "c993a2ad00858c8567d39ef79e674ed4",
+    "name": "Results API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "34a6f141c070d2e57de3cb8451f64be3",
+            "name": "Get Raw Check Results",
+            "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/results\/{checkid}",
+            "description": "\n    Return a list of raw test results for a specified check",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "\n    GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "to",
+                    "description": "End of period. Format is UNIX timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "from",
+                    "description": "Start of period. Format is UNIX timestamp",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "probes",
+                    "description": "Filter to only show results from a list of probes. Format is a comma separated list of probe identifiers",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "status",
+                    "description": "Filter to only show results with specified statuses. Format is a comma separated list of (down, up, unconfirmed, unknown)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Number of results to show (Will be set to 1000 if the provided value is greater than 1000)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "offset",
+                    "description": "Number of results to skip (Max value is 43200)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "includeanalysis",
+                    "description": "Attach available root cause analysis identifiers to corresponding results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "maxresponse",
+                    "description": "Maximum response time (ms). If set, specified interval must not be larger than 31 days.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "minresponse",
+                    "description": "Minimum response time (ms). If set, specified interval must not be larger than 31 days.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c993a2ad00858c8567d39ef79e674ed4",
+            "rawModeData": ""
+        }
+    ]
+}
