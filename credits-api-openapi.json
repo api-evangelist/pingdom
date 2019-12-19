@@ -1,0 +1,26 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Credits API",
+        "description": "The Credits API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.pingdom.com\/"
+    ],
+    "paths": {
+        "\n    \/api\/{version}\/credits": {
+            "\n    GET": {
+                "summary": "Get Credits List",
+                "description": "\n    Returns information about remaining checks, SMS credits and SMS auto-refill status.",
+                "operationId": "GetCreditsList",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
