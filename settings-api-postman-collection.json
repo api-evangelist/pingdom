@@ -1,0 +1,36 @@
+{
+    "id": "53e93ddede61f5196d29479391b31f5c",
+    "name": "Settings API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "6316ea1e517c531da095dcf42fa2904c",
+            "name": "Get Account Settings",
+            "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/settings",
+            "description": "\n    Returns all account-specific settings.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "\n    GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "53e93ddede61f5196d29479391b31f5c",
+            "rawModeData": ""
+        }
+    ]
+}
