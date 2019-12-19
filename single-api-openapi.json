@@ -1,0 +1,47 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Single API",
+        "description": "The Single API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.pingdom.com\/"
+    ],
+    "paths": {
+        "\n    \/api\/{version}\/single": {
+            "\n    GET": {
+                "summary": "Make A Single Test",
+                "description": "\n    Performs a single test using a specified Pingdom probe against a specified target. Please note that this method is meant to be used sparingly, not to set up your own monitoring solution.",
+                "operationId": "MakeASingleTest",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "host",
+                        "in": "query",
+                        "description": "Target host"
+                    },
+                    {
+                        "name": "type",
+                        "in": "query",
+                        "description": "Type of test"
+                    },
+                    {
+                        "name": "probeid",
+                        "in": "query",
+                        "description": "Probe identifier"
+                    },
+                    {
+                        "name": "ipv6",
+                        "in": "query",
+                        "description": "Use ipv6 instead of ipv4"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
