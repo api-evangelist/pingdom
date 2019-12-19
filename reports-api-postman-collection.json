@@ -1,0 +1,82 @@
+{
+    "id": "64c421f8c3452aa94db5c0f93943fddf",
+    "name": "Reports API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "8a913cf35dae046145849f73180a036d",
+            "name": "Get Email Report Subscription List",
+            "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/reports.email",
+            "description": "\n    Returns a list of email report subscriptions.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "\n    GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "64c421f8c3452aa94db5c0f93943fddf",
+            "rawModeData": ""
+        },
+        {
+            "id": "d975bc4cc2a94c88979cc72977d8e49a",
+            "name": "Get Public Report List",
+            "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/reports.public",
+            "description": "\n    Returns a list of public (web-based) reports.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "\n    GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "64c421f8c3452aa94db5c0f93943fddf",
+            "rawModeData": ""
+        },
+        {
+            "id": "96ba6906731b227d4cd7f545d8ac3727",
+            "name": "Get Shared Reports (Banners) List",
+            "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/reports.shared",
+            "description": "\n    Returns a list of shared reports (banners).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "\n    GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "64c421f8c3452aa94db5c0f93943fddf",
+            "rawModeData": ""
+        }
+    ]
+}
