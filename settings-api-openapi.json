@@ -1,0 +1,26 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Settings API",
+        "description": "The Settings API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.pingdom.com\/"
+    ],
+    "paths": {
+        "\n    \/api\/{version}\/settings": {
+            "\n    GET": {
+                "summary": "Get Account Settings",
+                "description": "\n    Returns all account-specific settings.",
+                "operationId": "GetAccountSettings",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
