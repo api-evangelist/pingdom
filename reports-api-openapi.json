@@ -1,0 +1,44 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Reports API",
+        "description": "The Reports API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.pingdom.com\/"
+    ],
+    "paths": {
+        "\n    \/api\/{version}\/reports.email": {
+            "\n    GET": {
+                "summary": "Get Email Report Subscription List",
+                "description": "\n    Returns a list of email report subscriptions.",
+                "operationId": "GetEmailReportSubscriptionList",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\n    \/api\/{version}\/reports.public": {
+            "\n    GET": {
+                "summary": "Get Public Report List",
+                "description": "\n    Returns a list of public (web-based) reports.",
+                "operationId": "GetPublicReportList",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\n    \/api\/{version}\/reports.shared": {
+            "\n    GET": {
+                "summary": "Get Shared Reports (Banners) List",
+                "description": "\n    Returns a list of shared reports (banners).",
+                "operationId": "GetSharedReportsBannersList",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
