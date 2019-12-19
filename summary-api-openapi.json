@@ -1,0 +1,172 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Summary API",
+        "description": "The Summary API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.pingdom.com\/"
+    ],
+    "paths": {
+        "\n    \/api\/{version}\/summary.average\/{checkid}": {
+            "\n    GET": {
+                "summary": "Get A Response Time \/ Uptime Average",
+                "description": "\n    Get the average time \/ uptime value for a specified check and time period.",
+                "operationId": "GetAResponseTimeUptimeAverage",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "from",
+                        "in": "query",
+                        "description": "Start time of period. Format is UNIX timestamp"
+                    },
+                    {
+                        "name": "to",
+                        "in": "query",
+                        "description": "End time of period. Format is UNIX timestamp"
+                    },
+                    {
+                        "name": "probes",
+                        "in": "query",
+                        "description": "Filter to only use results from a list of probes. Format is a comma separated list of probe identifiers"
+                    },
+                    {
+                        "name": "includeuptime",
+                        "in": "query",
+                        "description": "Include uptime information"
+                    },
+                    {
+                        "name": "bycountry",
+                        "in": "query",
+                        "description": "Split response times into country groups"
+                    },
+                    {
+                        "name": "byprobe",
+                        "in": "query",
+                        "description": "Split response times into probe groups"
+                    }
+                ]
+            }
+        },
+        "\n    \/api\/{version}\/summary.hoursofday\/{checkid}": {
+            "\n    GET": {
+                "summary": "Get Response Time Averages For Each Hour Of The Day",
+                "description": "\n    Returns the average response time for each hour of the day (0-23) for a specific check over a selected time period. I.e. it shows you what an average day looks like during that time period.",
+                "operationId": "GetResponseTimeAveragesForEachHourOfTheDay",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "from",
+                        "in": "query",
+                        "description": "Start time of period. Format is UNIX timestamp"
+                    },
+                    {
+                        "name": "to",
+                        "in": "query",
+                        "description": "End time of period. Format is UNIX timestamp"
+                    },
+                    {
+                        "name": "probes",
+                        "in": "query",
+                        "description": "Filter to only use results from a list of probes. Format is a comma separated list of probe identifiers"
+                    },
+                    {
+                        "name": "uselocaltime",
+                        "in": "query",
+                        "description": "If true, use the user's local time zone for results (from and to parameters should still be specified in UTC). If false, use UTC for results."
+                    }
+                ]
+            }
+        },
+        "\n    \/api\/{version}\/summary.outage\/{checkid}": {
+            "\n    GET": {
+                "summary": "Get List of Outages",
+                "description": "\n    Get a list of status changes for a specified check and time period. If order is speficied to descending, the list is ordered by newest first. (Default is ordered by oldest first.)",
+                "operationId": "GetListOfOutages",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "from",
+                        "in": "query",
+                        "description": "Start time of period. Format is UNIX timestamp"
+                    },
+                    {
+                        "name": "to",
+                        "in": "query",
+                        "description": "End time of period. Format is UNIX timestamp"
+                    },
+                    {
+                        "name": "order",
+                        "in": "query",
+                        "description": "Sorting order of outages. Ascending or descending."
+                    }
+                ]
+            }
+        },
+        "\n    \/api\/{version}\/summary.performance\/{checkid}": {
+            "\n    GET": {
+                "summary": "Get Intervals of Average Response Time and Uptime During a Given Interval",
+                "description": "\n    For a given interval in time, return a list of sub intervals with the given resolution. Useful for generating graphs. A sub interval may be a week,\n     a day or an hour depending on the choosen resolution.",
+                "operationId": "GetIntervalsOfAverageResponseTimeAndUptimeDuringAGivenInterval",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "from",
+                        "in": "query",
+                        "description": "Start time of period. Format is UNIX timestamp"
+                    },
+                    {
+                        "name": "to",
+                        "in": "query",
+                        "description": "End time of period. Format is UNIX timestamp"
+                    },
+                    {
+                        "name": "resolution",
+                        "in": "query",
+                        "description": "Interval size"
+                    },
+                    {
+                        "name": "includeuptime",
+                        "in": "query",
+                        "description": "Include uptime information"
+                    },
+                    {
+                        "name": "probes",
+                        "in": "query",
+                        "description": "Filter to only use results from a list of probes. Format is a comma separated list of probe identifiers"
+                    },
+                    {
+                        "name": "order",
+                        "in": "query",
+                        "description": "Sorting order of outages. Ascending or descending."
+                    }
+                ]
+            }
+        },
+        "\n    \/api\/{version}\/summary.probes\/{checkid}": {
+            "\n    GET": {
+                "summary": "Get Active Probes For A Period",
+                "description": "\n    Get a list of probes that performed tests for a specified check during a specified period.",
+                "operationId": "GetActiveProbesForAPeriod",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "from",
+                        "in": "query",
+                        "description": "Start time of period. Format is UNIX timestamp"
+                    },
+                    {
+                        "name": "to",
+                        "in": "query",
+                        "description": "End time of period. Format is UNIX timestamp"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
