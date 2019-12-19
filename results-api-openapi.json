@@ -1,0 +1,72 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Results API",
+        "description": "The Results API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.pingdom.com\/"
+    ],
+    "paths": {
+        "\n    \/api\/{version}\/results\/{checkid}": {
+            "\n    GET": {
+                "summary": "Get Raw Check Results",
+                "description": "\n    Return a list of raw test results for a specified check",
+                "operationId": "GetRawCheckResults",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "to",
+                        "in": "query",
+                        "description": "End of period. Format is UNIX timestamp"
+                    },
+                    {
+                        "name": "from",
+                        "in": "query",
+                        "description": "Start of period. Format is UNIX timestamp"
+                    },
+                    {
+                        "name": "probes",
+                        "in": "query",
+                        "description": "Filter to only show results from a list of probes. Format is a comma separated list of probe identifiers"
+                    },
+                    {
+                        "name": "status",
+                        "in": "query",
+                        "description": "Filter to only show results with specified statuses. Format is a comma separated list of (down, up, unconfirmed, unknown)"
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Number of results to show (Will be set to 1000 if the provided value is greater than 1000)"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "Number of results to skip (Max value is 43200)"
+                    },
+                    {
+                        "name": "includeanalysis",
+                        "in": "query",
+                        "description": "Attach available root cause analysis identifiers to corresponding results"
+                    },
+                    {
+                        "name": "maxresponse",
+                        "in": "query",
+                        "description": "Maximum response time (ms). If set, specified interval must not be larger than 31 days."
+                    },
+                    {
+                        "name": "minresponse",
+                        "in": "query",
+                        "description": "Minimum response time (ms). If set, specified interval must not be larger than 31 days."
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
