@@ -1,0 +1,255 @@
+{
+    "name": "Pingdom",
+    "description": "Monitor your website\u2019s availability and performance for free with Pingdom and always be the first to know when your website is down. No installation required.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/456-pingdom.jpg",
+    "tags": [
+        "have api",
+        "monitoring",
+        "performance",
+        "relative data",
+        "service api",
+        "streams",
+        "webhook implementations"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/pingdom\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Summary API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/456-pingdom.jpg",
+            "humanURL": "http:\/\/www.pingdom.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/summary-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/summary-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Single API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/456-pingdom.jpg",
+            "humanURL": "http:\/\/www.pingdom.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/single-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/single-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Servertime API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/456-pingdom.jpg",
+            "humanURL": "http:\/\/www.pingdom.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/servertime-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/servertime-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Reports API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/456-pingdom.jpg",
+            "humanURL": "http:\/\/www.pingdom.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/reports-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/reports-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Results API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/456-pingdom.jpg",
+            "humanURL": "http:\/\/www.pingdom.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/results-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/results-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Credits API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/456-pingdom.jpg",
+            "humanURL": "http:\/\/www.pingdom.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/credits-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/credits-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Probes API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/456-pingdom.jpg",
+            "humanURL": "http:\/\/www.pingdom.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/probes-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/probes-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Analysis API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/456-pingdom.jpg",
+            "humanURL": "http:\/\/www.pingdom.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/analysis-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/analysis-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Traceroute API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/456-pingdom.jpg",
+            "humanURL": "http:\/\/www.pingdom.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/traceroute-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/traceroute-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Settings API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/456-pingdom.jpg",
+            "humanURL": "http:\/\/www.pingdom.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/settings-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/settings-api-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "https:\/\/api.pingdom.com"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/royal.pingdom.com\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/royal.pingdom.com\/feed\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/pingdom"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/pingdom"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/www.pingdom.com\/features\/api\/"
+        },
+        {
+            "type": "Email",
+            "url": "sales@pingdom.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/Pingdom"
+        },
+        {
+            "type": "LinkedIn",
+            "url": "https:\/\/www.linkedin.com\/company\/pingdom"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/www.pingdom.com\/pricing"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/#!\/pingdom"
+        },
+        {
+            "type": "Webhooks",
+            "url": "https:\/\/www.pingdom.com\/resources\/webhooks\/"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.pingdom.com"
+        }
+    ]
+}
