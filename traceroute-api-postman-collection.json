@@ -1,0 +1,51 @@
+{
+    "id": "8bab3c2b92f37de145e38b70659bf549",
+    "name": "Traceroute API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "e8eb7371b4a1bde020dda71b6acb3ac2",
+            "name": "Make A Traceroute",
+            "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/traceroute",
+            "description": "\n    Perform a traceroute to a specified target from a specified Pingdom probe.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "\n    GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "host",
+                    "description": "Target host",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "probeid",
+                    "description": "Probe identifier",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8bab3c2b92f37de145e38b70659bf549",
+            "rawModeData": ""
+        }
+    ]
+}
