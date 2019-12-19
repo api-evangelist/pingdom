@@ -1,0 +1,65 @@
+{
+    "id": "960ef40fdde6ee3bc826b6ce2b223e3e",
+    "name": "Single API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "1867c0c66b51eb7d67046302efcfe309",
+            "name": "Make A Single Test",
+            "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/single",
+            "description": "\n    Performs a single test using a specified Pingdom probe against a specified target. Please note that this method is meant to be used sparingly, not to set up your own monitoring solution.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "\n    GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "host",
+                    "description": "Target host",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "type",
+                    "description": "Type of test",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "probeid",
+                    "description": "Probe identifier",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ipv6",
+                    "description": "Use ipv6 instead of ipv4",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "960ef40fdde6ee3bc826b6ce2b223e3e",
+            "rawModeData": ""
+        }
+    ]
+}
