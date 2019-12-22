@@ -1,5 +1,5 @@
 {
-    "id": "8bab3c2b92f37de145e38b70659bf549",
+    "id": "3ba67614228aa4e1b8a9433835a4b55f",
     "name": "Traceroute API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "e8eb7371b4a1bde020dda71b6acb3ac2",
+            "id": "d74303d446592e245f710dda88b4ec76",
             "name": "Make A Traceroute",
             "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/traceroute",
             "description": "\n    Perform a traceroute to a specified target from a specified Pingdom probe.",
@@ -44,7 +44,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8bab3c2b92f37de145e38b70659bf549",
+            "collectionId": "3ba67614228aa4e1b8a9433835a4b55f",
             "rawModeData": ""
         }
     ]
