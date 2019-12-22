@@ -1,5 +1,5 @@
 {
-    "id": "960ef40fdde6ee3bc826b6ce2b223e3e",
+    "id": "0d7205f0ffdcfe54eafa805021ea8ab4",
     "name": "Single API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "1867c0c66b51eb7d67046302efcfe309",
+            "id": "892a144748a3f1d63809c8df7da2e598",
             "name": "Make A Single Test",
             "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/single",
             "description": "\n    Performs a single test using a specified Pingdom probe against a specified target. Please note that this method is meant to be used sparingly, not to set up your own monitoring solution.",
@@ -58,7 +58,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "960ef40fdde6ee3bc826b6ce2b223e3e",
+            "collectionId": "0d7205f0ffdcfe54eafa805021ea8ab4",
             "rawModeData": ""
         }
     ]
