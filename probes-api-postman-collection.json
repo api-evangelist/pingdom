@@ -1,5 +1,5 @@
 {
-    "id": "975970068a2650f61facb396621eb235",
+    "id": "59978e8199e26fd77b98bc2e0fe84d0c",
     "name": "Probes API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "95bd0e4bb802c1bd7dbd71ef104dcad2",
+            "id": "a23cb005f6d24feebaca52ead7a2ccd3",
             "name": "Get Probe Server List",
             "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/probes",
             "description": "\n    Returns a list of all Pingdom probe servers for Uptime and Transaction checks.",
@@ -58,7 +58,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "975970068a2650f61facb396621eb235",
+            "collectionId": "59978e8199e26fd77b98bc2e0fe84d0c",
             "rawModeData": ""
         }
     ]
