@@ -1,5 +1,5 @@
 {
-    "id": "cebed31c3650eacd61e005275f48e73e",
+    "id": "46d6d72c4e9a36d8eebf26fbccd1e734",
     "name": "Analysis API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "777d98f33c5077d2c85dd9f93858daab",
+            "id": "d4855ad79b31ceb529472abc734b470e",
             "name": "Get Root Cause Analysis Results List",
             "url": "\n    \/api\/{version}\/analysis\/{checkid}",
             "description": "\n    Returns a list of the latest root cause analysis results for a specified check.",
@@ -58,7 +58,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "cebed31c3650eacd61e005275f48e73e",
+            "collectionId": "46d6d72c4e9a36d8eebf26fbccd1e734",
             "rawModeData": ""
         }
     ]
