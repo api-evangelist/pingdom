@@ -1,5 +1,5 @@
 {
-    "id": "c993a2ad00858c8567d39ef79e674ed4",
+    "id": "4db2d161d4a167cc2bcccdee1fbd89dc",
     "name": "Results API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "34a6f141c070d2e57de3cb8451f64be3",
+            "id": "9ba77a765e44239be0afa058aa09c4ff",
             "name": "Get Raw Check Results",
             "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/results\/{checkid}",
             "description": "\n    Return a list of raw test results for a specified check",
@@ -93,7 +93,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c993a2ad00858c8567d39ef79e674ed4",
+            "collectionId": "4db2d161d4a167cc2bcccdee1fbd89dc",
             "rawModeData": ""
         }
     ]
