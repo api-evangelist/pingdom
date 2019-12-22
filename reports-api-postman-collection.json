@@ -1,5 +1,5 @@
 {
-    "id": "64c421f8c3452aa94db5c0f93943fddf",
+    "id": "70ac4c1b16bc87193a2bdb843b764a42",
     "name": "Reports API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "8a913cf35dae046145849f73180a036d",
+            "id": "1c9f80afea0465b9ed62fdfeb0b5bf2c",
             "name": "Get Email Report Subscription List",
             "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/reports.email",
             "description": "\n    Returns a list of email report subscriptions.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "64c421f8c3452aa94db5c0f93943fddf",
+            "collectionId": "70ac4c1b16bc87193a2bdb843b764a42",
             "rawModeData": ""
         },
         {
-            "id": "d975bc4cc2a94c88979cc72977d8e49a",
+            "id": "a25cdd543c31b9a21321b2854e3921b0",
             "name": "Get Public Report List",
             "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/reports.public",
             "description": "\n    Returns a list of public (web-based) reports.",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "64c421f8c3452aa94db5c0f93943fddf",
+            "collectionId": "70ac4c1b16bc87193a2bdb843b764a42",
             "rawModeData": ""
         },
         {
-            "id": "96ba6906731b227d4cd7f545d8ac3727",
+            "id": "c26b31ea6df77f550c227f60cf62ae40",
             "name": "Get Shared Reports (Banners) List",
             "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/reports.shared",
             "description": "\n    Returns a list of shared reports (banners).",
@@ -75,7 +75,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "64c421f8c3452aa94db5c0f93943fddf",
+            "collectionId": "70ac4c1b16bc87193a2bdb843b764a42",
             "rawModeData": ""
         }
     ]
