@@ -1,5 +1,5 @@
 {
-    "id": "dde99523cd51d20af4141028a074940e",
+    "id": "b6584f5e15cf3c7320d8d1df64bfc600",
     "name": "Credits API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "772d4a698011bc47611478428e130489",
+            "id": "ea9fc0ce839f2d92c12927095bf872f1",
             "name": "Get Credits List",
             "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/credits",
             "description": "\n    Returns information about remaining checks, SMS credits and SMS auto-refill status.",
@@ -29,7 +29,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dde99523cd51d20af4141028a074940e",
+            "collectionId": "b6584f5e15cf3c7320d8d1df64bfc600",
             "rawModeData": ""
         }
     ]
