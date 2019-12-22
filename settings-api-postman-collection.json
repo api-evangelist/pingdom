@@ -1,5 +1,5 @@
 {
-    "id": "53e93ddede61f5196d29479391b31f5c",
+    "id": "79f7bb4113400a32e91f90d5db9cbcdf",
     "name": "Settings API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "6316ea1e517c531da095dcf42fa2904c",
+            "id": "17e550fac7ef9f4e7c747e1e1b66e4b4",
             "name": "Get Account Settings",
             "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/settings",
             "description": "\n    Returns all account-specific settings.",
@@ -29,7 +29,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "53e93ddede61f5196d29479391b31f5c",
+            "collectionId": "79f7bb4113400a32e91f90d5db9cbcdf",
             "rawModeData": ""
         }
     ]
