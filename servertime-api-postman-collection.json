@@ -1,5 +1,5 @@
 {
-    "id": "a19c88bb3e2cf2419f6aa40ddbd18957",
+    "id": "00f16912f2fe486dfc8954df917033d5",
     "name": "Servertime API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "45fbfc3fb4abecf52cae3567a72971d1",
+            "id": "32da26ad0bc8d4ba913a1e388ed17746",
             "name": "Get Current Server Time",
             "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/servertime",
             "description": "\n    Get the current time of the API server.",
@@ -29,7 +29,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "a19c88bb3e2cf2419f6aa40ddbd18957",
+            "collectionId": "00f16912f2fe486dfc8954df917033d5",
             "rawModeData": ""
         }
     ]
