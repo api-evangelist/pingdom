@@ -1,5 +1,5 @@
 {
-    "id": "b61c5f1b38c2a86f8767e8b4c24c362a",
+    "id": "d8a3b3c975ba9135a899de6aeba0a2ec",
     "name": "Summary API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "498557943cd222e072775ce4ff35ae80",
+            "id": "f262662690085a70186fdbbbf472df0b",
             "name": "Get A Response Time \/ Uptime Average",
             "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/summary.average\/{checkid}",
             "description": "\n    Get the average time \/ uptime value for a specified check and time period.",
@@ -72,11 +72,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b61c5f1b38c2a86f8767e8b4c24c362a",
+            "collectionId": "d8a3b3c975ba9135a899de6aeba0a2ec",
             "rawModeData": ""
         },
         {
-            "id": "abf8197b28d33d5aa016fd4740a2a325",
+            "id": "7f095d6c4057d33bfd7d0a4503f67a9b",
             "name": "Get Response Time Averages For Each Hour Of The Day",
             "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/summary.hoursofday\/{checkid}",
             "description": "\n    Returns the average response time for each hour of the day (0-23) for a specific check over a selected time period. I.e. it shows you what an average day looks like during that time period.",
@@ -124,11 +124,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b61c5f1b38c2a86f8767e8b4c24c362a",
+            "collectionId": "d8a3b3c975ba9135a899de6aeba0a2ec",
             "rawModeData": ""
         },
         {
-            "id": "bd95e56edf5de61e0cf33a728c7e3efb",
+            "id": "eeeb80e4a3b2d037ab0d2c246dce1ae3",
             "name": "Get List of Outages",
             "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/summary.outage\/{checkid}",
             "description": "\n    Get a list of status changes for a specified check and time period. If order is speficied to descending, the list is ordered by newest first. (Default is ordered by oldest first.)",
@@ -169,11 +169,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b61c5f1b38c2a86f8767e8b4c24c362a",
+            "collectionId": "d8a3b3c975ba9135a899de6aeba0a2ec",
             "rawModeData": ""
         },
         {
-            "id": "94cdf20c832abe8633a6ec46212755d4",
+            "id": "dae62fe34a465c74f4a9473ec2d56a10",
             "name": "Get Intervals of Average Response Time and Uptime During a Given Interval",
             "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/summary.performance\/{checkid}",
             "description": "\n    For a given interval in time, return a list of sub intervals with the given resolution. Useful for generating graphs. A sub interval may be a week,\n     a day or an hour depending on the choosen resolution.",
@@ -235,11 +235,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b61c5f1b38c2a86f8767e8b4c24c362a",
+            "collectionId": "d8a3b3c975ba9135a899de6aeba0a2ec",
             "rawModeData": ""
         },
         {
-            "id": "9eaf27a0fb432af0a3c2e89b29b7a485",
+            "id": "9dc0beda1da5731b7e4edf796a45b297",
             "name": "Get Active Probes For A Period",
             "url": "httpsapi.pingdom.com\/\n    \/api\/{version}\/summary.probes\/{checkid}",
             "description": "\n    Get a list of probes that performed tests for a specified check during a specified period.",
@@ -273,7 +273,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b61c5f1b38c2a86f8767e8b4c24c362a",
+            "collectionId": "d8a3b3c975ba9135a899de6aeba0a2ec",
             "rawModeData": ""
         }
     ]
