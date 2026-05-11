@@ -1,0 +1,73 @@
+aid: pingdom
+name: Pingdom
+description: >-
+  Pingdom is a website uptime and performance monitoring service from SolarWinds
+  that tracks availability, response time, transactions, real user monitoring,
+  and page speed from a global network of probe servers. It alerts teams via
+  email, SMS, webhooks, and integrations when websites, APIs, or critical user
+  journeys experience downtime or degraded performance. The Pingdom Public REST
+  API (v3.1) provides programmatic access to checks, results, alerts, contacts,
+  maintenance windows, and reports using Bearer token authentication.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Monitoring
+  - Uptime Monitoring
+  - Website Monitoring
+  - Performance Monitoring
+  - Real User Monitoring
+  - Synthetic Monitoring
+  - Observability
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/pingdom/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: pingdom:public-api
+    name: Pingdom Public API
+    description: >-
+      REST API for managing uptime checks, transaction checks, results, alerts,
+      contacts, maintenance windows, teams, and reports in the Pingdom
+      monitoring platform. Authentication uses Bearer token API keys generated
+      from My Pingdom Integrations.
+    humanURL: https://docs.pingdom.com/api/
+    baseURL: https://api.pingdom.com/api/3.1
+    tags:
+      - Monitoring
+      - Uptime
+      - Checks
+      - Alerts
+      - Performance
+    properties:
+      - type: Documentation
+        url: https://docs.pingdom.com/api/
+      - type: API Reference
+        url: https://docs.pingdom.com/api/
+      - type: Authentication
+        url: https://docs.pingdom.com/api/#section/Authentication
+
+common:
+  - type: Website
+    url: https://www.pingdom.com
+  - type: Documentation
+    url: https://docs.pingdom.com/
+  - type: API Documentation
+    url: https://docs.pingdom.com/api/
+  - type: Pricing
+    url: https://www.pingdom.com/pricing/
+  - type: Sign Up
+    url: https://www.pingdom.com/sign-up/
+  - type: Login
+    url: https://my.pingdom.com/
+  - type: Blog
+    url: https://www.pingdom.com/blog/
+  - type: Support
+    url: https://help.pingdom.com/
+  - type: Status
+    url: https://status.pingdom.com/
+  - type: Parent Company
+    url: https://www.solarwinds.com/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
