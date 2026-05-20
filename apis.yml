@@ -48,6 +48,10 @@ apis:
         url: https://docs.pingdom.com/api/#section/Authentication
 
 common:
+  - type: GitHubOrganization
+    url: https://github.com/Pingdom
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/pingdom
   - type: Website
     url: https://www.pingdom.com
   - type: Documentation
