@@ -60,7 +60,7 @@ common:
     url: https://docs.pingdom.com/api/
   - type: Pricing
     url: https://www.pingdom.com/pricing/
-  - type: SignUp
+  - type: Signup
     url: https://www.pingdom.com/sign-up/
   - type: Login
     url: https://my.pingdom.com/
