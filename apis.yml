@@ -48,6 +48,8 @@ apis:
         url: https://docs.pingdom.com/api/#section/Authentication
 
 common:
+  - type: DomainSecurity
+    url: security/pingdom-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/Pingdom
   - type: LinkedIn
