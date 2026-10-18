@@ -94,7 +94,7 @@
     - alpha
     in_cloud: true
     builder: unknown (community connector; contributor not in the record)
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
 - slug: pingdom-fivetran
   label: Fivetran
@@ -120,5 +120,5 @@
     - connectors/applications/pingdom
     vendor_link: https://my.pingdom.com/
     builder: Fivetran
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
